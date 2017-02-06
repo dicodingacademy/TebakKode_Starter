@@ -27,10 +27,11 @@ CREATE TABLE `questions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 ALTER TABLE `questions`
+  ADD PRIMARY KEY (`id`);
+  
+ALTER TABLE `questions`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
-ALTER TABLE `questions`
-  ADD PRIMARY KEY (`id`);
 
 INSERT INTO `questions` (`id`, `number`, `text`, `image`, `option_a`, `option_b`, `option_c`, `option_d`, `answer`) VALUES
 (1, 1, 'Apa hasil yang benar dari kode berikut ini?', 'https://res.cloudinary.com/db9zavtws/image/upload/v1486219056/1_rgnadm.png', '4', '3', '5', '"0"', '4'),
