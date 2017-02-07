@@ -37,7 +37,7 @@ INSERT INTO `questions` (`id`, `number`, `text`, `image`, `option_a`, `option_b`
 (1, 1, 'Apa hasil yang benar dari kode berikut ini?', 'https://res.cloudinary.com/db9zavtws/image/upload/v1486219056/1_rgnadm.png', '4', '3', '5', '"0"', '4'),
 (2, 2, 'Apa output kode berikut ini?', 'https://res.cloudinary.com/db9zavtws/image/upload/v1486219057/2_f3d4tz.png', '1,2,3,4,5,6,7,8,9', '1,2,3,4,5,6,78,9,10', '2,3,4,5,8,9', '1,1,1,1,1,1,1,1,1,1', '1,1,1,1,1,1,1,1,1,1'),
 (3, 3, 'Mana output yang benar?', 'https://res.cloudinary.com/db9zavtws/image/upload/v1486221114/3_ginlhe.png', '''a'' found', '''a'' not found', '', '', '''a'' not found'),
-(4, 4, 'Apa hasil yang benar dari kode berikut ini?', 'https://res.cloudinary.com/db9zavtws/image/upload/v1486222467/4_n5ai4k.png', 'PHP 5.3', '5.2PHP 3', 'PHP', 'PH', '5.2PHP 3'),
+(4, 4, 'Apa hasil yang benar dari kode berikut ini?', 'https://res.cloudinary.com/db9zavtws/image/upload/v1486222467/4_n5ai4k.png', 'PHP 5.3', '5.3PHP 3', 'PHP', 'PH', '5.3PHP 3'),
 (5, 5, 'Mana output yang benar?', 'https://res.cloudinary.com/db9zavtws/image/upload/v1486219057/5_ngpkk0.png', 'Undefined variable', '6', '2', '10', 'Undefined variable'),
 (6, 6, 'Apa hasil yang benar dari kode berikut ini?', 'https://res.cloudinary.com/db9zavtws/image/upload/v1486219057/6_ltdqow.png', '2', '4', '3', 'Error', '2'),
 (7, 7, 'Mana output yang benar?', 'https://res.cloudinary.com/db9zavtws/image/upload/v1486219057/7_z6elyq.png', '5 with warning', '3', 'Error', '10', '5 with warning'),
